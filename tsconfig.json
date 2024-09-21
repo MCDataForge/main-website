@@ -1,0 +1,45 @@
+{
+  // Mapped from https://www.typescriptlang.org/tsconfig
+  "compilerOptions": {
+    // Language and Environment
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "preserve",
+
+    // JavaScript Support
+    "allowJs": true,
+
+    // Completeness
+    "skipLibCheck": true,
+
+    // Type Checking
+    "strict": true,
+
+    // Emit
+    "noEmit": true,
+
+    // Interop Constraints
+    "esModuleInterop": true,
+    "isolatedModules": true,
+
+    // Modules
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    // Projects
+    "incremental": true,
+
+    // Editor Support
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
