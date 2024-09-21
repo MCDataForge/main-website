@@ -7,7 +7,7 @@ export default function Header(): JSX.Element {
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">MCDataForge</span>
             <img
               className="h-8 w-auto rounded-full"
               src="https://avatars.githubusercontent.com/u/96520794?s=400&u=2a54bfc2658a461d6339e3e4285ac247d431393a&v=4"
